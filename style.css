@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(103, 118, 138);
+    padding: 1rem 5%;
+}
+
+header h5 {
+    float: left;
+    color: white;
+    font-size: 1.2rem;
+}
+
+button {
+    float: left;
+    color: rgb(103, 118, 138);
+    margin-left: 75%;
+    margin-top: 2%;
+    height: 2.5rem;
+}
+
+main {
+    text-align: center;
+    padding: 8% 5%;
+    background: rgb(103, 118, 138);
+}
+
+main h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+main h3 {
+    padding: 0 10%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+main p {
+    margin-top: 2%;
+    color: white;
+}
+
+.why {
+    text-align: center;
+    padding: 8% 5%;
+}
+
+.why h2 {
+    font-size: 2.5rem;
+}
+
+.why p {
+    text-align: center;
+    padding: 0 12%;
+}
+
+.visit {
+    background: rgb(219, 223, 225);
+    padding: 8% 5%;
+    overflow: hidden;
+}
+
+.gym, .hire {
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+.left-box, .right-box {
+    border: 1px solid rgb(103, 118, 138);
+    margin: 10% auto;
+    height: 11.563rem;
+    width: 60%;
+    background: rgb(103, 118, 138);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.gym h3, .hire h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.gym p, .hire p {
+    padding: 0 5%;
+    font-size: 1rem;
+}
+
+.gym h4, .hire h4 {
+    padding: 0.8rem;
+    margin: 2rem auto;
+    width: 40%;
+    text-align: center;
+    background: rgb(219, 223, 225);
+    border: 1px solid black;
+}
+
+.volunteer {
+    clear: both;
+    text-align: center;
+    padding: 8% 5%;
+}
+
+.volunteer h2 {
+    font-size: 2.5rem;
+}
+
+.volunteer p {
+    text-align: center;
+    padding: 0 12%;
+}
+
+footer {
+    background: rgb(23, 31, 43);
+    padding: 5% 5% 2%;
+}
+
+.links, .address {
+    width: 50%;
+    float: left;
+    padding: 2%;
+    background: rgb(23, 31, 43);
+}
+
+.links img {
+    margin-left: 10%;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.links h5 {
+    color: rgb(103, 118, 138);
+    padding-left: 12%;
+    font-size: 1.2rem;
+}
+
+.links p {
+    color: white;
+    padding-left: 12%;
+    word-spacing: 1rem;
+}
+
+.address h5 {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 3%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.address p {
+    color: rgb(156, 160, 161);
+    padding-right: 9%;
+    text-align: right;
+    font-size: 1rem;
+}
+
+.address span {
+    color: white;
+}
+
+.end {
+    border-top: 1px solid white;
+    clear: both;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background: rgb(23, 31, 43);
+}
+
+.end p {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    button {
+        display: none;
+    }
+
+    header h5 {
+        font-size: 1rem;
+    }
+
+    main h1 {
+        font-size: 3rem;
+    }
+
+    main h3 {
+        font-size: 1.2rem;
+    }
+
+    .why h2 {
+        font-size: 2rem;
+    }
+
+    .gym, .hire {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    .gym h3, .hire h3{
+        text-align: center;
+    }
+
+    .links, .address {
+        width: 100%;
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+    
+    .links h5{
+        display: none;
+    }
+
+    .links p{
+        display: none;
+    }
+
+    .links img {
+        margin: 0 auto;
+    }
+
+    .address h5, .address p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .end {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .address h5{
+        display: none;
+    }
+    
+    .address p{
+        display: none;
+    }
+}
+
+@media (max-width: 425px){
+    .end{
+        display: none;
+    }
+
+    header h5{
+        display: none;
+    }
+
+    .gym h4, .hire h4{
+        display: none;
+    }
+}
